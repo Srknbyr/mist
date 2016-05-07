@@ -1,0 +1,34 @@
+{
+    "app": {
+        "loading": "Yükleniyor...",
+        "offline": "Bağlantı Sağlanamadı, Çevrimdışı Olabilir Misin?",
+        "logginIn": "Giriş Yapılıyor..."
+    },
+    "error": {
+        "insufficientRights": "Bu işlemi yapmak için yeterli izne sahip değilsin."
+    },
+    "buttons": {
+        "ok": "Tamam",
+        "cancel": "İptal",
+        "save": "Kaydet",
+        "edit": "Düzenle",
+        "send": "Gönder",
+        "next": "Sonraki",
+        "previous": "Önceki",
+        "back": "Geri",
+        "skip": "Atla",
+        "sending": "Gönderiyor...",
+        "create": "Oluştur",
+        "tryToReconnect": "Tekrar Bağlanmaya Çalışıyor"
+    },
+    "commonWords": {
+        "you": "Sen",
+        "send": "Gönder",
+        "or": "ya da",
+        "of": "den, dan",
+        "with": "ile",
+        "and": "ve",
+        "on": "üzerinde",
+        "per": "her bir"
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "mist": {
+        "applicationMenu": {
+            "app": {
+                "label": "__uygulama__",
+                "about": "Hakkında __uygulama__",
+                "quit": "Çıkış __uygulama__"
+            },
+            "edit": {
+                "label": "Düzenle",
+                "undo": "Geri al",
+                "redo": "Yinele",
+                "cut": "Kes",
+                "copy": "Kopyala",
+                "paste": "Yapıştır",
+                "selectAll": "Tümünü Seç"
+            },
+            "view": {
+                "label": "Görüntüle",
+                "fullscreen": "Tam Ekrana Geç"
+            },
+            "accounts": {
+                "label": "Hesaplar",
+                "importPresale": "Pre-Sale Hesapları İçe Aktar",
+                "newAccount": "Yeni Hesap Oluştur",
+                "backup": "Yedekle",
+                "backupKeyStore": "Hesaplar",
+                "backupMist": "Uygulama Verileri"
+            },
+            "develop": {
+                "label": "Geliştir",
+                "devTools": "Geliştirici Araçlarını Görüntüle",
+                "devToolsMistUI": "Mist Kullanıcı Arayüzü",
+                "devToolsWalletUI": "Cüzdan Kullanıcı Arayüzü",
+                "devToolsWebview": "__webgörüntüsü__",
+                "runTests": "Testleri Yap",
+                "logFiles": "Log dosyalarını göster",
+                "ethereumNode": "Ethereum Node",
+                "network": "Ağ",
+                "mainNetwork": "Ana Ağ",
+                "startMining": "⛏ Start Mining (Testnet only)",
+                "stopMining": "⛏ Stop Mining"
+            },
+            "window": {
+                "label": "Pencere",
+                "minimize": "Küçült",
+                "close": "Kapat",
+                "toFront": "En öne getir"
+            },
+            "help": {
+                "label": "Yardım"
+            }
+        },
+        "errors": {
+            "nodeConnect": "Node'lara bağlanılamıyor? Detaylar için loglara bakın:",
+            "nodeStartup": "Görünen o ki node'lar başlayamadı, Hali hazırda bir tanesini çalıştırıyor olabilir misin? Ya da veritabanını yükseltiyor olabilir mi?",
+            "timeSync": {
+                "title": "Bilgisayarınızın saati senkronize değil!.",
+                "description": "Ethereum ağı ile başarılı bir şekilde senkronize olmak için bilgisayarınızın saatini senkronize etmeniz gerekmektedir.",
+                "win32": "Denetim masasından Saat, Dil ve Bölge'yi seçin ve ardından Tarih ve saati ayarlayın. Ayrıntılı bilgi için: http://www.guidingtech.com/3119/windows-clock-sync/",
+                "linux": "Senkronize server saati için lütfen yükleyiniz: \"ntp\" via \"apt-get install ntp\".",
+                "darwin": "Senkronize server saati için, tarih ve zaman ayarlarını açın ve kontrol edin: \"Set the time and date automatically\"."
+            }
+        },
+        "rightClick": {
+            "reload": "Yeniden yükle",
+            "openDevTools": "Geliştirici araçlarını açın",
+            "inspectElements": "Bileşenleri incele"
+        },
+        "nodeInfo": {
+            "nodeSyncing": "__blok__ Blok kaldıt",
+            "blockReceived": "Yeni blok alındı",
+            "blockNumber": "Son blok numaran",
+            "timeSinceBlock": "Son bloktan itibaren geçen zaman",
+            "testnetExplain": "Şu anda TEST ağındasınız, buradaki adreslere gerçek Ether GÖNDERMEYİNİZ!",
+            "peers": "Eşler"
+        },
+        "sidebar": {
+            "buttons": {
+                "browser": "Gözden geçir"
+            }
+        },
+        "browserBar": {
+            "buttons": {
+                "noAccounts": "Hiçbir hesap ayarlanmadı"
+            }
+        },
+        "startScreen": {
+            "runningNodeFound": "Zaten Çalışan bir Ethereum Node'u Bulundu!",
+            "startingNode": " Ethereum Node'u Başlatılıyor...",
+            "startedNode": "Uygulama Başlatılıyor...",
+            "nodeConnectionTimeout": "Ethereum Node'u Başlatılamadı!<br><small> Ya <a href='https://www.ethereum.org/cli#geth' class='button' target='_blank'>installed Geth</a>, Çalıştırmak için bu kodu kullan: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'> Ya da durumu raporla </a></small>",
+            "nodeBinaryNotFound": "Ethereum Node Çifti Bulunamadı!<br><small> <a href='https://www.ethereum.org/cli#geth' class='button' target='_blank'> Lütfen Manuel olarak başlatın. </a> </small>",
+            "nodeSyncing": "Ethereum Node'ları senkronize ediliyor, Lütfen bekleyiniz...",
+            "nodeSyncInfo": "Blok indiriliyor __şu anki blok__ içerisinden __En son blok__.",
+            "nodeSyncConnecting": "Eşler aranıyor...",
+            "nodeSyncProcessing": "Bloklar işleniyor, Lütfen Bekleyiniz...",
+            "privateChainTimeout": "Eş aramayı atla"
+        },
+        "popupWindows": {
+            "requestAccount": {
+                "title": "Hesap Oluştur",
+                "enterPassword": "Şifrenizi girin",
+                "repeatPassword": "Şifrenizi tekrar girin",
+                "creating": "Hesap Oluşturuluyor...",
+                "errors": {
+                    "passwordMismatch": "Şifreleriniz eşleşmiyor."
+                }
+            },
+            "unlockMasterPassword": {
+                "title": "Ana şifreyi girin",
+                "enterPassword": "Ana şifreyi girin",
+                "unlocking": "Kilit kaldırılıyor...",
+                "errors": {
+                    "wrongPassword": "Şifre hatalı, Tekrar deneyin."
+                }
+            },
+            "sendTransactionConfirmation": {
+                "title": {
+                    "sendTransaction": "İşlem Gönderin",
+                    "contractExecution": "Kontratı gerçekleştir",
+                    "createContract": "Yeni bir kontrat oluştur"  
+                },
+                "contractExecutionInfo": "Kontrat üzerinde bir şey çalıştırmak üzeresiniz. Bu değerlerin transferini içerebilir.",
+                "contractCreationInfo": "Sağlanan veriden bir kontrat oluşturmak üzeresiniz.",
+                "enterPassword": "İşlemi onaylamak için şifrenizi girin",
+                "unlocking": "Onaylanıyor...",
+                "createContract": "Kontrat Oluştur",
+                "estimatedFee": "Yaklaşık komisyon tüketimi",
+                "estimatedGasError": "Veriler çalıştırılamadı, Sağlanan GAS miktarını tüketecek.",
+                "gasPrice": "GAS ücreti",
+                "perMillionGas": "Milyon GAS'taki Ether",
+                "gasLimit": "Komisyonu maksimuma çıkart",
+                "data": "Veri",
+                "buttons": {
+                    "sendTransaction": "İşlem gönder"
+                },
+                "errors": {
+                    "connectionTimeout": "Node'a bağlanılamıyor, Arka planda çökmüş olabilir mi?",
+                    "wrongPassword": "Hatalı şifre"
+                }
+            },
+            "onboarding": {
+                "description" : "Ethereum, blok zinciri üzerinde uygulama yapılmasına olanak sağlayan dağıtık bir platformdur. Hiçbir zaman bozulmaz ve sonsuza kadar yaşar",
+                "goToTestnet" : "TEST ağını kullan",
+                "goToTestnetDescription" : "Gerçek ether kullanmadan, TEST ağında teknolojiyi test edin.",
+                "gotoMainnet" : "ANA ağı kullan",
+                "gotoMainnetDescription" : " Yeni bir kontrat oluşturmak ve çalıştırmak için biraz Ethere ihtiyacın var, Merak etme biz sana destek olacağız...",
+                "doYouHaveAWalletFile" : "Cüzdan dosyan var mı?",
+                "walletFileDescription" : "<p>Eğer 2014 yılındaki Ethereum Pre-sale'ine katıldıysan, Şuna benzer bir dosyan olması lazım <code>ethereum_wallet_backup.json</code>. Satıştan sonra indirdiğin ve sadece kendi mail adresine gönderdiğin dosya</p>",
+                "dropFilesHere" : "Pre-Sale dosyasını buraya bırakın",
+                "creating": "Oluşturuluyor...",
+                "importing": "İçe aktarılıyor...",
+                "skip" : "Bu aşamayı atla",
+                "next" : "Sonraki",
+                "protectTitle" : "Hesabını koru",
+                "protectDescription" : "Yeni hesabın için bir şifre seç. sanki kendi evinin anahtarını korur gibi çok güçlü bir şifre seç!",
+                "accountTitle" : "Yükle!",
+                "accountTitleTestnet" : "Biraz Kaz!",
+                "etherDescription": "Ethereum ağı Ether adı verilen token tabanlıdır. Ethereum ağında herhangi bir şey yapmak için Ether'e ihtiyacın olacak.",
+                "loadItDescription" : "Eğer bitcoine ya da başka bir kripto paraya sahipsen, Shapeshift kullanarak kolaylıkla Ether'e çevirebilirsin. <br><br> Şu kadar yüklemeni tavsiye ediyoruz <strong>0.25 to 1 ether</strong>.",
+                "mineItDescription": "<strong>TEST ağında şuraya giderek kendi etherini kazabilirsin: <em>Develop</em> Menü Seç <em>Start Mining</em>. </strong> <br> <strong> BU ADRESE GERÇEK ETHER GÖNDERMEYİN </strong>",
+                "you" : "Sen",
+                "etherbase" : "Ana Hesap (etherbase)",
+                "depositBitcoin" : "Bitcoin Yatır",
+                "learnIt" : "Beklerken öğren",
+                "downloadingBlocks": "Bloklar indiriliyor",
+                "block": "Blok",
+                "tutorial1Description" : "<p> Şu anda yapacağın tek şey indirmenin tamamlanması. Beklerken ilgini çekebilecek öneriler: </p> <h4>Kendi paranı oluştur </h4> <p> Sabit pazar hacimli bir kripto para yarat ya da dünyada bir şeylere çözüm üret</p>",
+                "tutorial2Description" : "<h4> Bir Crowdsale Yarat </h4> <p> Genel hedefler için kaynak topla. Araya üçüncü kişilerin aracılık etmesine gerek yok, Tamamen güvenilir. Bir organizasyonu blok zinciri üzerinden anında destekle.</p>",
+                "tutorial3Description" : "<h4> Blok zinciri Organizasyonu </h4> <p> Otonom bir organizasyon yarat ve paranın nasıl harcanacağı, karar mercinin kim olduğu konusunda çiğnenemeyen kuralları olsun. Sana destek olanların paranın nasıl harcanacağı konusunda aktif rolleri olsun</p>",
+                "buttons": {
+                    "showPassword": "Şifreyi göster",
+                    "importAccount": "Hesabı içe aktar",
+                    "launchApp": "Uygulamayı Çalıştır!",
+                    "learnReceipt": "Tarifini öğren"
+                },
+                "errors": {
+                    "nodeNotStartedYet": "Lütfen Node'unuz tamamen başlayana kadar bir kaç saniye daha bekleyiniz ve tekrar deneyiniz",
+                    "unknownFile": "dosya tanınmadı.",
+                    "passwordError": "Hatalı Şifre.",
+                    "importFailed": "Dosya içe aktarılamadı: __Hatası__"
+                }
+            }
+        }
+    },
+    "elements": {
+        "checksumAlert":"Bu adres geçerli gözüküyor ancak seni koruyacak herhangi bir güvenlik önlemi yok. Lütfen doğru olduğunu kontrol edin. Eğer güvenlik ikonu sağlanmış ise eşleşiğ eşleşmediğini kontrol edin.",
+        "identiconHelper": "Bu bir güvenlik ikonudur, eğer adres değişir ise bu ikon tamamen farklı bir ikona dönüşecektir."
+    }
+}
